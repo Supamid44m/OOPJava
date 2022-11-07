@@ -38,6 +38,5 @@ class openwheelcar{
     }
 }
 //Polymorphism
-///asdasd
-///asdasd
+//test
 
