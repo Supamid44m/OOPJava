@@ -4,6 +4,5 @@ class openwheelcar{
     private  int tires_size;
     private  int top_speed;
     private  int cylinders;
-
-
+    public   String type;
 }
