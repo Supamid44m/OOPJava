@@ -5,8 +5,13 @@ class openwheelcar{
     private  int tires_size;
     private  int top_speed;
     private  int cylinders;
+
+    //constructor
+    openwheelcar(){
+
+    }
     
-    //metthod
+    //method
     public void setEngine(String engine){
         this.engine=engine;
         
@@ -28,5 +33,9 @@ class openwheelcar{
         System.out.println("TopSpeed:"+this.top_speed);
         System.out.println("Cylinders:"+this.cylinders);
     }
-    
+    public String getEngine(){
+        return this.engine;
+    }
 }
+
+
