@@ -1,5 +1,5 @@
 class openwheelcar{
-    //private  ;
+    //Attribute
     private  String engine;
     private  int tires_size;
     private  int top_speed;
