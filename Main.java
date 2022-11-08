@@ -10,6 +10,9 @@ public class Main {
         car1.setCylinders(6);
         car1.showInfo();
 
+        FormulaOne car2 = new FormulaOne();
+        car2.setTopSpeed(300);
+
         
     }
 }
