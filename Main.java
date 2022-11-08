@@ -18,6 +18,8 @@ public class Main {
 
         
         
-        //Car car3 = new Car();                                               //สร้าง object ใหม่จาก  class Car 
+        Car car3 = new Car();                                                //สร้าง object ใหม่จาก  class Car 
+        car3.setEngine("fr15"); 
+        car3.setTopSpeed(300);                                          
     }
 }

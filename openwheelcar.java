@@ -54,9 +54,10 @@ abstract class BuildOpenWheelcar{
     public String brand;
     private String engine;
     private  int top_speed;
-    
-    public abstract void setEngine();
-    public abstract void setTopSpeed();
+   
+    //method 
+    public abstract void setEngine(String engine);
+    public abstract void setTopSpeed(int top_speed);
 }
 // การสร้าง interface class ด้วยกำหนด interface ข้างหน้าชื่อclass
 
