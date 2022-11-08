@@ -18,8 +18,14 @@ public class Main {
 
         
         
-        Car car3 = new Car();                                                //สร้าง object ใหม่จาก  class Car 
+        Car car3 = new Car();              //สร้าง object ใหม่จาก  class Car 
+        car3.brand="ferrari";                                  
         car3.setEngine("fr15"); 
-        car3.setTopSpeed(300);                                          
+        car3.setTopSpeed(300);   
+        
+        //ทดลองใช้ interface class
+        Car2 car4 = new Car2();
+        car4.weight(100);
+        car4.wing_height(5);
     }
 }
