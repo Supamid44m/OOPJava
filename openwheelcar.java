@@ -44,7 +44,26 @@ class Openwheelcar{
             System.out.println(" No Hybrid engine");
 
         }
+        
+       
     }
+
+
+    // การสร้าง abstract class
+
+/***
+    abstract class OpenWheelcar{
+    public String brand;
+    private String engine;
+    private  int top_speed;
+    
+    public abstract void setEngine();
+    public abstract void setTopSpeed();
+
+
+} ***/
+
+
 
 
 
