@@ -1,6 +1,6 @@
 public class Main {
      public static void main(String[] args) {
-        openwheelcar car1=new openwheelcar();
+        Openwheelcar car1=new Openwheelcar();
         car1.brand="Redbull";
 
        // car1.engine="v8"; //Encapsulation
@@ -9,5 +9,7 @@ public class Main {
         car1.setTopSpeed(397);
         car1.setCylinders(6);
         car1.showInfo();
+
+        
     }
 }
