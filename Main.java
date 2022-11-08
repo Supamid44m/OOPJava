@@ -14,6 +14,7 @@ public class Main {
         car2.setTopSpeed(300); //override method
         car2.Driver("Mart","testDriver");
         car2.IsChampion(3);
+        car2.IsHybrid();
 
         
     }

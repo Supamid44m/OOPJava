@@ -40,11 +40,15 @@ class Openwheelcar{
         public String getEngine(){
             return this.engine;
         }
+        public void IsHybrid(){
+            System.out.println(" No Hybrid engine");
+
+        }
     }
 
     
     
-    //Polymorphism
+ 
     
     
     

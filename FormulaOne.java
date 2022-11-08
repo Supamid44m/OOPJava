@@ -1,8 +1,7 @@
 //Inheritance
 
 class FormulaOne extends Openwheelcar {
-    
-    //overloading method 
+    //Polymorphism and overloading method 
     public void IsChampion(){
         System.out.println("No Champ");
     }
@@ -10,11 +9,20 @@ class FormulaOne extends Openwheelcar {
         System.out.println("ChampTitle:" + " "+ champtime + " " + "time");
 
     }
+    public void Driver(){
+        System.out.println("No Driver");
+
+    }
+
     public void Driver(String...driver){
         for(int i=0;i<driver.length;i++){
             System.out.println("Driver:" + " "+ driver[i]);
         }
 
+    }
+    //overriding Method
+    public void IsHybrid(){
+        System.out.println("This car use Hybrid engine");
     }
 
 
