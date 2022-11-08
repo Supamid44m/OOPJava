@@ -1,8 +1,9 @@
     //superclass
 
 class Openwheelcar{
-    //Encapsulation
-        //Attribute
+    
+        
+        //Attribute and access modifier
         public String brand;
         private  String engine;
         private  int tires_size;
@@ -46,23 +47,31 @@ class Openwheelcar{
         }
         
        
-    }
+}
 
-
-    // การสร้าง abstract class
-
-/***
-    abstract class OpenWheelcar{
+// การสร้าง abstract class
+abstract class BuildOpenWheelcar{
     public String brand;
     private String engine;
     private  int top_speed;
     
     public abstract void setEngine();
     public abstract void setTopSpeed();
+}
+// การสร้าง interface class ด้วยกำหนด interface ข้างหน้าชื่อclass
+
+interface CarDesighCheat{
+    public abstract void weight(int weight);
+    public abstract void wing_height(int weight);
+    
+
+}
 
 
-} ***/
 
+/*** 
+ 
+ ***/
 
 
 

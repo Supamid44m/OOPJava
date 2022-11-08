@@ -1,7 +1,7 @@
 public class Main {
      public static void main(String[] args) {
         Openwheelcar car1=new Openwheelcar();
-        car1.brand="Redbull";
+        car1.brand="Redbull";                           
 
        // car1.engine="v8";                                                 //Encapsulation
         car1.setEngine("RB16");                                      //method จาก superclass
