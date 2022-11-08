@@ -1,0 +1,3 @@
+class FormulaOne extends Openwheelcar {
+    
+}
