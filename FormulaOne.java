@@ -10,17 +10,17 @@ class FormulaOne extends Openwheelcar {
 
     }
     public void Driver(){
-        System.out.println("No Driver");
+        System.out.println("No Driver Now");
 
     }
 
     public void Driver(String...driver){
         for(int i=0;i<driver.length;i++){
-            System.out.println("Driver:" + " "+ driver[i]);
+            System.out.println("Current Driver:" + " "+ driver[i]);
         }
 
     }
-    //overriding Method
+    //overriding Method จาก superclass
     public void IsHybrid(){
         System.out.println("This car use Hybrid engine");
     }
