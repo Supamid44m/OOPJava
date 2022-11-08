@@ -46,6 +46,17 @@ class Openwheelcar{
         }
     }
 
+//abstract class 
+
+abstract class BuildOpenWheelcar{
+    private String skill;
+    private String name;
+    private String jobpo;
+
+    public abstract void skilltest();
+
+}
+
     
     
  
