@@ -1,3 +1,4 @@
+    //superclass
 class openwheelcar{
     //Attribute
     public String brand;
@@ -5,6 +6,7 @@ class openwheelcar{
     private  int tires_size;
     private  int top_speed;
     private  int cylinders;
+    
 
     //constructor
     openwheelcar(){
@@ -37,6 +39,10 @@ class openwheelcar{
         return this.engine;
     }
 }
+//Inheritance
+    //subclass
+
+
 //Polymorphism
-//test
+
 
