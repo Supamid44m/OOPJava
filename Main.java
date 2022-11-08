@@ -11,7 +11,9 @@ public class Main {
         car1.showInfo();
 
         FormulaOne car2 = new FormulaOne();
-        car2.setTopSpeed(300);
+        car2.setTopSpeed(300); //override method
+        car2.Driver("Mart","testDriver");
+        car2.IsChampion(3);
 
         
     }

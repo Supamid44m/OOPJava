@@ -1,5 +1,7 @@
     //superclass
+
 class Openwheelcar{
+    //Encapsulation
         //Attribute
         public String brand;
         private  String engine;
@@ -39,8 +41,7 @@ class Openwheelcar{
             return this.engine;
         }
     }
-    //Inheritance
-        //subclass
+
     
     
     //Polymorphism
